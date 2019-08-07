@@ -24,7 +24,7 @@ Para conseguir logar na aplicação é preciso ter acesso.<br>Abaixo estão as c
 
 ## Rodando os testes
 
-Para executar todos os testes basta rodar
+Para executar todos os testes basta estar dentro da pasta `arquivei-challenge` e rodar
 
 ```bash
     npm t
