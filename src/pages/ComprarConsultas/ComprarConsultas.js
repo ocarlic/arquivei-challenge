@@ -105,7 +105,7 @@ class ComprarConsultas extends PureComponent {
     const { cnpj, numberCreditCard } = this.state;
     if (cnpj.length === 18 && numberCreditCard.length === 19) {
       this.setState({ showModal: true, errorCNPJ: false, errorCreditCard: false });
-    } else if (cnpj.length !== 18 && numberCreditCard.length !== 19) {
+    } else if (cnpj.length !== 18 || numberCreditCard.length !== 19) {
       if (cnpj.length !== 18) this.setState({ errorCNPJ: true });
       else this.setState({ errorCNPJ: false });
 
