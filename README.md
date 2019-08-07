@@ -10,7 +10,7 @@ Para iniciar o projeto é preciso clonar o repositório
     git clone git@github.com:ocarlic/arquivei-challenge.git
 ```
 
-Em seguida abrir o repositório clonado e rodar no terminal o `npm install` para instalar todas as dependências do projeto.<br><br>
+Em seguida abrir o repositório `arquivei-challenge` que foi clonado e rodar no terminal o `npm install` para instalar todas as dependências do projeto.<br><br>
 Depois que todas as dependências foram instaladas corretamente, é só rodar o `npm start` para que a aplicação suba no [http://localhost:3000](http://localhost:3000)<br>
 
 ## Login para acesso
