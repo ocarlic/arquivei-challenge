@@ -6,7 +6,7 @@ const NavBar = ({ Loggout }) => (
     className="navbar navbar-dark fixed-top flex-md-nowrap"
     style={{ backgroundColor: '#4076FA' }}
   >
-    <a className="col-sm-3 col-md-2 mr-0" href="/home">
+    <a className="mr-0" href="/home">
       <img
         src="https://cdn-landing.arquivei.com.br/wp-content/themes/pure-arquivei/img/logo-white-small.png?x15117"
         alt="Download automático Notas Fiscais Eletrônicas (XML e DANFe), armazenamento ilimitado e gestão de NFe, CTe e NFSe. Teste grátis por 45 dias e baixe já suas notas!"
